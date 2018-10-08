@@ -90,11 +90,10 @@ def cnn_model():
     ## add the model on top of the convolutional base
     #model.add(top_model)
     model.add(Flatten())
-    #model.add(Dropout(0.5))
+    model.add(Dropout(0.5))
     model.add(Dense(128))
     #model.add(BatchNormalization())
     model.add(Activation('relu'))
-    model.add(Dropout(0.5))
 
     model.add(Dense(nb_classes))
     #model.add(BatchNormalization())
