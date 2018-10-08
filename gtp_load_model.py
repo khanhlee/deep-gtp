@@ -31,17 +31,6 @@ nb_kernels = 3
 nb_pools = 2
 window_sizes = 19
 
-# load training dataset
-# dataset = numpy.loadtxt(trn_file, delimiter=",")
-# # split into input (X) and output (Y) variables
-# X = dataset[:,0:window_sizes*20].reshape(len(dataset),1,20,window_sizes)
-# Y = dataset[:,window_sizes*20]
-
-# Y = np_utils.to_categorical(Y,nb_classes)
-#print X,Y
-#nb_classes = Y.shape[1]
-#print nb_classes
-
 # load testing dataset
 dataset1 = numpy.loadtxt(tst_file, delimiter=",")
 # split into input (X) and output (Y) variables
