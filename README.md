@@ -6,6 +6,6 @@ Deep learning has been increasingly and widely used to solve numerous problems i
 
 File:
 
-- train_model_cv: train model with 5-fold cross-validation
-- build_model.py: build model using 2D CNN on given dataset
-- motor_load_model.py: load JSON model
+- gtp_cv: train model with 5-fold cross-validation
+- gtp_build_model.py: build model using 2D CNN on given dataset
+- gtp_load_model.py: load JSON model
