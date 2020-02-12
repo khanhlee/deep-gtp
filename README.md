@@ -9,3 +9,7 @@ File:
 - gtp_cv: train model with 5-fold cross-validation
 - gtp_build_model.py: build model using 2D CNN on given dataset
 - gtp_load_model.py: load JSON model
+
+# Citation
+Please cite our paper as follows:
+>Le, N. Q. K., Ho, Q. T., & Ou, Y. Y. (2019). Using two-dimensional convolutional neural networks for identifying GTP binding sites in Rab proteins. *Journal of Bioinformatics and Computational Biology*, 17(1), 1950005-1950005. https://doi.org/10.1142/S0219720019500057.
